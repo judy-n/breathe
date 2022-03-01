@@ -13,7 +13,7 @@ struct ContentView: View {
             HStack(alignment: .top) {
                 
                 Text("“I’m doing great, everything will work out like it always does.”")
-                    .font(Font.custom("DMSans-Regular", size: 18))
+                    .font(Font.custom("DMSans-Regular", size: 22))
                     .foregroundColor(Color("darkerGreen"))
                     .padding(10)
                 HStack {
@@ -27,7 +27,23 @@ struct ContentView: View {
                 }
             }   .background(Color("lightGreen"))
                 .cornerRadius(15)
+            Spacer()
+            VStack(alignment: .leading) {
+                Text("Hi! What would you like to do?")
+                    .font(Font.custom("DMSans-Regular", size: 22))
+                    .foregroundColor(Color("darkText"))
+                Rectangle()
+                    .fill(Color("lightGreen"))
+                           .frame(width: 40, height: 2)
+        
+            }
+            Spacer()
+            VStack {
+            Text("test")
+            }
+            Spacer()
         } .padding(15)
+        
     }
 }
 
