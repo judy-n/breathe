@@ -14,6 +14,14 @@
 		8B830B9B27CD973700B49C28 /* BreatheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B830B9A27CD973700B49C28 /* BreatheTests.swift */; };
 		8B830BA527CD973700B49C28 /* BreatheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B830BA427CD973700B49C28 /* BreatheUITests.swift */; };
 		8B830BA727CD973700B49C28 /* BreatheUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B830BA627CD973700B49C28 /* BreatheUITestsLaunchTests.swift */; };
+		8B830BBD27CD9C3200B49C28 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B830BB627CD9C3200B49C28 /* DMSans-Regular.ttf */; };
+		8B830BBE27CD9C3200B49C28 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B830BB727CD9C3200B49C28 /* DMSans-Medium.ttf */; };
+		8B830BBF27CD9C3200B49C28 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B830BB827CD9C3200B49C28 /* DMSans-Bold.ttf */; };
+		8B830BC027CD9C3200B49C28 /* DMSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B830BB927CD9C3200B49C28 /* DMSans-BoldItalic.ttf */; };
+		8B830BC127CD9C3200B49C28 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8B830BBA27CD9C3200B49C28 /* OFL.txt */; };
+		8B830BC227CD9C3200B49C28 /* DMSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B830BBB27CD9C3200B49C28 /* DMSans-MediumItalic.ttf */; };
+		8B830BC327CD9C3200B49C28 /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B830BBC27CD9C3200B49C28 /* DMSans-Italic.ttf */; };
+		8B830BCA27CDAADC00B49C28 /* BorderRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B830BC927CDAADC00B49C28 /* BorderRadius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,15 @@
 		8B830BA027CD973700B49C28 /* BreatheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreatheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B830BA427CD973700B49C28 /* BreatheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheUITests.swift; sourceTree = "<group>"; };
 		8B830BA627CD973700B49C28 /* BreatheUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B830BB627CD9C3200B49C28 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		8B830BB727CD9C3200B49C28 /* DMSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Medium.ttf"; sourceTree = "<group>"; };
+		8B830BB827CD9C3200B49C28 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		8B830BB927CD9C3200B49C28 /* DMSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8B830BBA27CD9C3200B49C28 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		8B830BBB27CD9C3200B49C28 /* DMSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		8B830BBC27CD9C3200B49C28 /* DMSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Italic.ttf"; sourceTree = "<group>"; };
+		8B830BC427CD9E3200B49C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B830BC927CDAADC00B49C28 /* BorderRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderRadius.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +111,8 @@
 		8B830B8827CD973500B49C28 /* Breathe */ = {
 			isa = PBXGroup;
 			children = (
+				8B830BC427CD9E3200B49C28 /* Info.plist */,
+				8B830BB527CD9C3200B49C28 /* CustomFonts */,
 				8B830B8927CD973500B49C28 /* BreatheApp.swift */,
 				8B830B8B27CD973500B49C28 /* ContentView.swift */,
 				8B830B8D27CD973700B49C28 /* Assets.xcassets */,
@@ -125,6 +144,21 @@
 				8B830BA627CD973700B49C28 /* BreatheUITestsLaunchTests.swift */,
 			);
 			path = BreatheUITests;
+			sourceTree = "<group>";
+		};
+		8B830BB527CD9C3200B49C28 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B830BB627CD9C3200B49C28 /* DMSans-Regular.ttf */,
+				8B830BB727CD9C3200B49C28 /* DMSans-Medium.ttf */,
+				8B830BB827CD9C3200B49C28 /* DMSans-Bold.ttf */,
+				8B830BB927CD9C3200B49C28 /* DMSans-BoldItalic.ttf */,
+				8B830BBA27CD9C3200B49C28 /* OFL.txt */,
+				8B830BC927CDAADC00B49C28 /* BorderRadius.swift */,
+				8B830BBB27CD9C3200B49C28 /* DMSans-MediumItalic.ttf */,
+				8B830BBC27CD9C3200B49C28 /* DMSans-Italic.ttf */,
+			);
+			path = CustomFonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +265,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B830BC127CD9C3200B49C28 /* OFL.txt in Resources */,
+				8B830BC327CD9C3200B49C28 /* DMSans-Italic.ttf in Resources */,
+				8B830BBD27CD9C3200B49C28 /* DMSans-Regular.ttf in Resources */,
+				8B830BBF27CD9C3200B49C28 /* DMSans-Bold.ttf in Resources */,
+				8B830BBE27CD9C3200B49C28 /* DMSans-Medium.ttf in Resources */,
 				8B830B9127CD973700B49C28 /* Preview Assets.xcassets in Resources */,
+				8B830BC227CD9C3200B49C28 /* DMSans-MediumItalic.ttf in Resources */,
 				8B830B8E27CD973700B49C28 /* Assets.xcassets in Resources */,
+				8B830BC027CD9C3200B49C28 /* DMSans-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +300,7 @@
 			files = (
 				8B830B8C27CD973500B49C28 /* ContentView.swift in Sources */,
 				8B830B8A27CD973500B49C28 /* BreatheApp.swift in Sources */,
+				8B830BCA27CDAADC00B49C28 /* BorderRadius.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +463,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Breathe/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Breathe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +492,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Breathe/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Breathe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
