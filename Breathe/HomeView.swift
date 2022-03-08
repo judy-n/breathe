@@ -10,11 +10,11 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         
-        VStack(spacing: 30) {
+        VStack(alignment: .leading, spacing: 30) {
             HStack(alignment: .top) {
                 
                 Text("“I’m doing great, everything will work out like it always does.”")
-                    .font(Font.custom("DMSans-Regular", size: 18))
+                    .font(Font.custom("DMSans-Regular", size: 24))
                     .foregroundColor(Color("darkerGreen"))
                     .padding(10)
                 HStack {
@@ -28,10 +28,10 @@ struct HomeView: View {
                 }
             }   .background(Color("lightGreen"))
                 .cornerRadius(15)
-//            Spacer()
+            Spacer()
             VStack(alignment: .leading) {
                 Text("Hi! What would you like to do?")
-                    .font(Font.custom("DMSans-Regular", size: 22))
+                    .font(Font.custom("DMSans-Regular", size: 24))
                     .foregroundColor(Color("darkText"))
                     .padding(.trailing)
                     
@@ -49,7 +49,7 @@ struct HomeView: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .foregroundColor(Color("darkerGreen"))
-                            .frame(width: 35, height: 35)
+                            .frame(width: 40, height: 40)
                             .padding(10)
                     }
                 }).buttonStyle(PlainButtonStyle())
@@ -58,10 +58,10 @@ struct HomeView: View {
                     .shadow(radius: 2)
                 VStack(alignment: .leading) {
                     Text("Breathe")
-                        .font(Font.custom("DMSans-Regular", size: 22))
+                        .font(Font.custom("DMSans-Regular", size: 24))
                         .foregroundColor(Color("darkerGreen"))
                     Text("Simple guided breathing")
-                        .font(Font.custom("DMSans-Regular", size: 12))
+                        .font(Font.custom("DMSans-Regular", size: 14))
                         .foregroundColor(Color.gray)
                 }
                 
@@ -73,7 +73,7 @@ struct HomeView: View {
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .foregroundColor(Color("darkerGreen"))
-                                .frame(width: 35, height: 35)
+                                .frame(width: 40, height: 40)
                                 .padding(10)
                         }
                     }).buttonStyle(PlainButtonStyle())
@@ -82,10 +82,10 @@ struct HomeView: View {
                         .shadow(radius: 2)
                     VStack(alignment: .leading) {
                         Text("Grounding")
-                            .font(Font.custom("DMSans-Regular", size: 22))
+                            .font(Font.custom("DMSans-Regular", size: 24))
                             .foregroundColor(Color("darkerGreen"))
                         Text("Methods to pull you away from distressing thoughts")
-                            .font(Font.custom("DMSans-Regular", size: 12))
+                            .font(Font.custom("DMSans-Regular", size: 14))
                             .foregroundColor(Color.gray)
                             .fixedSize(horizontal: false, vertical: true)
                     }
@@ -99,7 +99,7 @@ struct HomeView: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .foregroundColor(Color("darkerGreen"))
-                            .frame(width: 35, height: 35)
+                            .frame(width: 40, height: 40)
                             .padding(10)
                     }
                 }).buttonStyle(PlainButtonStyle())
@@ -108,10 +108,10 @@ struct HomeView: View {
                     .shadow(radius: 2)
                 VStack(alignment: .leading) {
                     Text("Journal")
-                        .font(Font.custom("DMSans-Regular", size: 22))
+                        .font(Font.custom("DMSans-Regular", size: 24))
                         .foregroundColor(Color("darkerGreen"))
                     Text("Write and let out your feelings")
-                        .font(Font.custom("DMSans-Regular", size: 12))
+                        .font(Font.custom("DMSans-Regular", size: 14))
                         .foregroundColor(Color.gray)
                         .fixedSize(horizontal: false, vertical: true)
                 }
@@ -124,7 +124,7 @@ struct HomeView: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .foregroundColor(Color("darkerGreen"))
-                            .frame(width: 35, height: 35)
+                            .frame(width: 40, height: 40)
                             .padding(10)
                     }
                 }).buttonStyle(PlainButtonStyle())
@@ -133,17 +133,20 @@ struct HomeView: View {
                     .shadow(radius: 2)
                 VStack(alignment: .leading) {
                     Text("Reminders")
-                        .font(Font.custom("DMSans-Regular", size: 22))
+                        .font(Font.custom("DMSans-Regular", size: 24))
                         .foregroundColor(Color("darkerGreen"))
                     Text("Your achievements and things you're grateful for")
-                        .font(Font.custom("DMSans-Regular", size: 12))
+                        .font(Font.custom("DMSans-Regular", size: 14))
                         .foregroundColor(Color.gray)
                         .fixedSize(horizontal: false, vertical: true)
                 }
                 
             }
             }
+            Spacer()
+            Spacer()
         } .padding(15)
+            
         
         
     }
