@@ -180,6 +180,8 @@
 			dependencies = (
 			);
 			name = Breathe;
+			packageProductDependencies = (
+			);
 			productName = Breathe;
 			productReference = 8B830B8627CD973500B49C28 /* Breathe.app */;
 			productType = "com.apple.product-type.application";
@@ -252,6 +254,8 @@
 				Base,
 			);
 			mainGroup = 8B830B7D27CD973500B49C28;
+			packageReferences = (
+			);
 			productRefGroup = 8B830B8727CD973500B49C28 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

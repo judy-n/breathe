@@ -42,18 +42,16 @@ struct HomeView: View {
             }
 //            Spacer()
             VStack(alignment: .leading) {
-            HStack {
+            HStack(spacing: 20) {
                 Button(action: {}, label: {
                     HStack {
                         Image(systemName: "circle.dashed")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .foregroundColor(Color("darkerGreen"))
-                            .frame(width: 40, height: 40)
+                            .frame(width: 50, height: 50)
                             .padding(10)
                     }
-                }).buttonStyle(PlainButtonStyle())
-                    .background(Color.white)
+                }).buttonStyle(ThumbnailStyle())
                     .cornerRadius(5)
                     .shadow(radius: 2)
                 VStack(alignment: .leading) {
@@ -66,18 +64,16 @@ struct HomeView: View {
                 }
                 
             }
-                HStack {
+                HStack(spacing: 20) {
                     Button(action: {}, label: {
                         HStack {
                             Image(systemName: "sun.and.horizon.fill")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .foregroundColor(Color("darkerGreen"))
-                                .frame(width: 40, height: 40)
+                                .frame(width: 50, height: 50)
                                 .padding(10)
                         }
-                    }).buttonStyle(PlainButtonStyle())
-                        .background(Color.white)
+                    }).buttonStyle(ThumbnailStyle())
                         .cornerRadius(5)
                         .shadow(radius: 2)
                     VStack(alignment: .leading) {
@@ -92,18 +88,16 @@ struct HomeView: View {
                     
                 }
             
-            HStack {
+            HStack(spacing: 20) {
                 Button(action: {}, label: {
                     HStack {
                         Image(systemName: "book")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .foregroundColor(Color("darkerGreen"))
-                            .frame(width: 40, height: 40)
+                            .frame(width: 50, height: 50)
                             .padding(10)
                     }
-                }).buttonStyle(PlainButtonStyle())
-                    .background(Color.white)
+                }).buttonStyle(ThumbnailStyle())
                     .cornerRadius(5)
                     .shadow(radius: 2)
                 VStack(alignment: .leading) {
@@ -117,18 +111,16 @@ struct HomeView: View {
                 }
                 
             }
-            HStack {
+                HStack(spacing: 20) {
                 Button(action: {}, label: {
                     HStack {
                         Image(systemName: "face.smiling")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .foregroundColor(Color("darkerGreen"))
-                            .frame(width: 40, height: 40)
+                            .frame(width: 50, height: 50)
                             .padding(10)
                     }
-                }).buttonStyle(PlainButtonStyle())
-                    .background(Color.white)
+                }).buttonStyle(ThumbnailStyle())
                     .cornerRadius(5)
                     .shadow(radius: 2)
                 VStack(alignment: .leading) {
@@ -149,5 +141,19 @@ struct HomeView: View {
             
         
         
+    }
+}
+
+struct ThumbnailStyle: ButtonStyle {
+    func makeBody(configuration: Self.Configuration) -> some View {
+        configuration.label
+            
+            .background(!configuration.isPressed ?
+                        Color.white :
+                            Color("darkerGreen"))
+            
+            .foregroundColor(!configuration.isPressed ?
+                             Color("darkerGreen") : Color.white)
+     
     }
 }
