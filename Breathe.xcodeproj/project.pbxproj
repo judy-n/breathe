@@ -23,6 +23,7 @@
 		8B830BC227CD9C3200B49C28 /* DMSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B830BBB27CD9C3200B49C28 /* DMSans-MediumItalic.ttf */; };
 		8B830BC327CD9C3200B49C28 /* DMSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B830BBC27CD9C3200B49C28 /* DMSans-Italic.ttf */; };
 		8B830BCA27CDAADC00B49C28 /* BorderRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B830BC927CDAADC00B49C28 /* BorderRadius.swift */; };
+		8BF6C44727F8DFE800D807ED /* BreathePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF6C44627F8DFE800D807ED /* BreathePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		8B830BBC27CD9C3200B49C28 /* DMSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Italic.ttf"; sourceTree = "<group>"; };
 		8B830BC427CD9E3200B49C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8B830BC927CDAADC00B49C28 /* BorderRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderRadius.swift; sourceTree = "<group>"; };
+		8BF6C44627F8DFE800D807ED /* BreathePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		8B830B8827CD973500B49C28 /* Breathe */ = {
 			isa = PBXGroup;
 			children = (
+				8BF6C44627F8DFE800D807ED /* BreathePage.swift */,
 				8B42750D27D5EF9E006A7A4A /* HomeView.swift */,
 				8B830BC427CD9E3200B49C28 /* Info.plist */,
 				8B830BB527CD9C3200B49C28 /* CustomFonts */,
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B830B8C27CD973500B49C28 /* ContentView.swift in Sources */,
+				8BF6C44727F8DFE800D807ED /* BreathePage.swift in Sources */,
 				8B42750E27D5EF9E006A7A4A /* HomeView.swift in Sources */,
 				8B830B8A27CD973500B49C28 /* BreatheApp.swift in Sources */,
 				8B830BCA27CDAADC00B49C28 /* BorderRadius.swift in Sources */,
